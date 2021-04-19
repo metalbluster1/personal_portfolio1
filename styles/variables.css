@@ -1,0 +1,15 @@
+:root {
+    --primary-color: rgb(206, 81, 81);
+    --primary-background-color: rgb(43, 44, 71);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.sub-title {
+    padding: 40px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 1.8rem;
+}

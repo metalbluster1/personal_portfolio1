@@ -1,0 +1,27 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+#name {
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    
+}
