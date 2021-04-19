@@ -1,0 +1,57 @@
+
+@media(max-width: 425px) {
+
+    #nav-bar {
+        position: relative;
+        background-color:  rgb(30, 25, 59);
+    }
+    #name h1 {
+        color: orange;
+    }
+    #home {
+        margin: auto;
+        max-width: 425px;
+    }
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-nav ul {
+        margin: auto;
+        max-width: 410px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+    }
+    #main-header {
+        height: 100px !important;
+    }
+    #main-header h1, #main-header h2 {
+        font-size: 1.4rem;
+    }
+    #main-header h1 {
+        padding-top: 50px;
+    }
+    .languages-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .percent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .responsive {
+        width: 100%;
+        max-width: 420px;
+        height: 300px;
+    }
+    .work ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .project1 {
+        margin: auto;
+    }
+}
