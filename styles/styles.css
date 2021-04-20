@@ -135,9 +135,8 @@ body {
 
 .work ul {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 20px;
 }
 .work ul li {

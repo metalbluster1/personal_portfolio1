@@ -54,4 +54,60 @@
     .project1 {
         margin: auto;
     }
+    .allrights {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .languages-grid {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .work ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+
+    .work ul {
+        margin: auto;
+        max-width: 750px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .work ul li {
+        padding-bottom: 30px;
+    }
+    .responsive {
+        width: 100%;
+        max-width: 340px;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    
+    .work ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .work ul li {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    .work ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
 }
